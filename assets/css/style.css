@@ -1,6 +1,6 @@
 :root {
     /* Uncomment the code below and change the color scheme if desired https://www.w3schools.com/css/css3_variables.asp */
-    --primary: rgba(43, 91, 186, 0.6);
+    --primary: rgba(23, 116, 114, 0.6);
     --light: rgb(255,255,255);
     --greyish: rgb(116 121 129 / 80%);
 }
@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-    background-color:rgb(14, 13, 13);
+    background-color:rgb(70, 31, 8);
 }
 
 a {
@@ -27,7 +27,7 @@ a {
 }
 
 .custom-text-cont:first-child {
-    flex-basis: 40%;
+    flex-basis: 50%;
 }
 
 .custom-text-cont:last-child {
@@ -71,6 +71,10 @@ a {
 
 img + p > span {
     display: block;
+    color: var(--primary);
+}
+.name{
+    color: var(--light);
 }
 
 /* Explain in comments below what the media queries are doing in regards to different screen sizes */
